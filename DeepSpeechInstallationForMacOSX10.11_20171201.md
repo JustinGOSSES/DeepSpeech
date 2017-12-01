@@ -32,7 +32,7 @@ pip install deepspeech
 ```
 I saw an output that suggested there was no such pip module. I knew this wasn't the case. I was able to deal with this required MacOSX version issue by:
 
-1. Downloading the wheel directly & manually from pypi website. 
+1. Downloading the <a href="https://pypi.python.org/pypi/deepspeech/0.1.0">wheel</a> directly & manually from pypi website. 
 2. Changing the name of the wheel file such that it was called v10.11 instead of v10.12
 3. Manually running pip via:
 
