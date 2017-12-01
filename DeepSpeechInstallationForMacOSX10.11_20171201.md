@@ -7,12 +7,6 @@ The basic problem that caused the issues was that <a href="https://pypi.python.o
 
 This instructions are for the python bindings only, not native and not node.js. Also, this is focused on cpu not gpu code. Please refer to the <a href="https://github.com/mozilla/DeepSpeech">original</a> readme for more detailed directions. 
 
-Below are steps I took to install <a href="https://github.com/mozilla/DeepSpeech">Mozilla's Deepspeech</a> on a MacBookPro running v10.11. Specifically, run the python bindings in order to do basic interence, or speech-to-text prediction, using Mozilla's pre-trained language model. There are other aspects of installation, for example node.js bindings, native bindings, libraries for training tasks, etc. that aren't addressed here.
-
-
-
-
-
 A debugging discussion occured on the Discourse discussion board informed these steps <a href="https://discourse.mozilla.org/t/pip-install-deepspeech-doesnt-find-deepspeech/22788/11">here</a>. https://discourse.mozilla.org/t/pip-install-deepspeech-doesnt-find-deepspeech/22788
 
 ## DeepSpeech Installation Steps
