@@ -1,9 +1,9 @@
 
 ## Purpose of this document: 
 
-#### I have trouble installing deepspeech because my MacOS operating system was not the expected one. This required a couple differences in installation, which I've tried to document here. 
+#### I had trouble installing deepspeech because my MacOS operating system was not the expected one. This required a few differences in installation, which I've tried to document here. 
 
-**Demonstrate alternative installation steps** I took to install <a href="https://github.com/mozilla/DeepSpeech">Mozilla's Deepspeech</a> and run on a MacBookPro running v10.11. Specifically, run the python bindings in order to do basic interence, or speech-to-text prediction, using Mozilla's pre-trained language model. 
+Below are steps I took to install <a href="https://github.com/mozilla/DeepSpeech">Mozilla's Deepspeech</a> on a MacBookPro running v10.11. Specifically, run the python bindings in order to do basic interence, or speech-to-text prediction, using Mozilla's pre-trained language model. There are other aspects of installation, for example node.js bindings, native bindings, libraries for training tasks, etc. that aren't addressed here.
 
 The basic problem that caused the issues was that <a href="https://pypi.python.org/pypi/deepspeech/0.1.0">pypi files</a> for MacOSX referenced during the command *pip install deepspeech* were only for v10.12 of MacOSX and my computer was on v10.11 of MacOSX.
 
