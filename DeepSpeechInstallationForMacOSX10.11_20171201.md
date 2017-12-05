@@ -3,6 +3,8 @@
 
 #### I had trouble installing <a href="https://github.com/mozilla/DeepSpeech">Mozilla's Deepspeech</a> because my MacOS operating system was not the expected one. This required a few differences in installation, which I've tried to document here. 
 
+##### It should be noted that these instructions also worked on the docker image I tried, <a herf="https://hub.docker.com/r/manujbhatia/deepspeech/">here</a>. This docker image loads the various things you need on ubuntu, but it does not do the DeepSpeech installation steps.  
+
 The basic problem that caused the issues was that <a href="https://pypi.python.org/pypi/deepspeech/0.1.0">pypi files</a> for MacOSX referenced during the command *pip install deepspeech* were only for v10.12 of MacOSX and my computer was on v10.11 of MacOSX.
 
 This instructions are for the python bindings only, not native and not node.js. Also, this is focused on cpu not gpu code. Please refer to the <a href="https://github.com/mozilla/DeepSpeech">original</a> readme for more detailed directions. 
